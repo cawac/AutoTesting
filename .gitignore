@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Пока в репозиторий попадает только WebUI
+/*
+!/.gitignore
+!/WebUI/
+
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+.DS_Store
+*.env*
+test-results/
